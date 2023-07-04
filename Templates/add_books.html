@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>ADD BOOK DETAILS</title>
+</head>
+<body>
+<form action="/add_book" method="POST">
+    <center><h2>ADD BOOK</h2>
+    <hr>
+    </center>
+    <center>
+    <label for="book_id">Book ID:</label>
+    <input type="text" id="book_id" name="book_id" placeholder="Enter book id" required><br><br>
+
+    <label for="book_name">Book Name:</label>
+    <input type="text" id="book_name" name="book_name" placeholder="Enter book name" required><br><br>
+
+    <label for="author">Author Name:</label>
+    <input type="text" id="author" name="author" placeholder="Enter author name" required><br><br>
+
+    <input type="submit" value="Add Book">
+        </center>
+</form>
+<center>
+<a href="/delete_book">delete book details?</a><br><br>
+<a href="/update_book">update book details</a><br><br>
+</center>
+</body>
+</html>
